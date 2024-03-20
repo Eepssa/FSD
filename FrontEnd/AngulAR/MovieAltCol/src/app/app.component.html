@@ -1,0 +1,34 @@
+<ul>
+  <li *ngFor="let movie of movies; index as i" [ngClass]="i%2==0?'yel':'grn'"> {{i}}-{{movie.name}} -{{movie.rating}}
+    -{{movie.language}}</li>
+</ul>
+
+<label for="bold">
+  <input type="checkbox" id="bold" name="bold" value="bold" (change)="getType('bold')">
+  Bold
+</label><br>
+
+<label for="italic">
+  <input type="checkbox" id="italic" name="italic" value="italic" (change)="getType('italic')">
+  Italic</label><br>
+<div [ngStyle]="{'font-weight':getbold(), 'font-style': getitalic()}">
+  This is angular
+</div>
+
+<!-- <p appFirstdir> Highlight Me!!!</p>
+<p appFirstdir> This is not going to be Highlight</p> -->
+
+
+<h1>My First Attribute Directive</h1>
+
+<h2>Pick a highlight color</h2>
+<div>
+  <input type="radio" name="colors" (click)="color='lightgreen'">Green
+  <input type="radio" name="colors" (click)="color='yellow'">Yellow
+  <input type="radio" name="colors" (click)="color='cyan'">Cyan
+</div>
+<p [appFirstdir]="color">Highlight me!</p>
+
+
+
+

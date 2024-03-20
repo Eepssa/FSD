@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\jwtDemo-master"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\Parent\pom.xml"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\Practice"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\Practice\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.ibm.maven.JwtDemo"/>
+			<item value="com.ibm.maven.PlayStoreAOP"/>
+			<item value="com.ibm.maven.AirFlight"/>
+			<item value="org.Child3"/>
+			<item value="org."/>
+		</list>
+		<list key="groupId">
+			<item value="com.ibm.maven"/>
+		</list>
+		<list key="artifactId">
+			<item value="JwtDemo"/>
+			<item value="PlayStoreAOP"/>
+			<item value="AirFlight"/>
+			<item value="Child3"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.1"/>
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="Child3"/>
+			<item value="Child2"/>
+			<item value="Child1"/>
+			<item value="Parent"/>
+			<item value="Prarent"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.MavenProjectSelectionDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="450"/>
+		<item key="x" value="720"/>
+		<item key="y" value="81"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\MovieList"/>
+			<item value="C:\Users\EepssaRout\Documents\Flight-Aviation\backend\flight_api"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\MongoUser"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\UserFile"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\spring-boot-in-memory-jwt-main"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\Book"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\Vehicle"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\JwtDemo"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\jwtDemo-master"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\ThymLeafSecurity"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\ProductPageSort"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\pagingandsorting"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\person1"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\pan1"/>
+			<item value="C:\Users\EepssaRout\Documents\IBM_Train\Form"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

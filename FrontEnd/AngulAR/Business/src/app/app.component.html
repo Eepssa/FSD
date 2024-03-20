@@ -1,0 +1,19 @@
+<!-- <app-nav></app-nav>
+<app-page></app-page>
+<app-footer></app-footer> -->
+
+<div *ngFor="let housingLocation of housingLocationList" id="outside">
+ <h4>No. {{housingLocation.id}}</h4> <!--In style sheet the css is there -->
+<img src="{{housingLocation.photo}}" id="im1" height="350px" width="100%" ><br>
+<div id="inside" style="background-color: powderblue; border: 4px solid black;">
+        Name: {{housingLocation.name}}<br>
+        Location: {{housingLocation.city}}, {{housingLocation.state}}<br>
+        Available Units: {{housingLocation.availableUnits}}<br>
+        Laundry: {{housingLocation.laundry}}<br></div>
+         <span *ngIf="housingLocation.wifi">
+         <img src="https://static.vecteezy.com/system/resources/previews/000/649/595/original/wifi-icon-symbol-sign-vector.jpg"
+         height="50px" width="50px">
+         </span> 
+       <br>
+</div><br>
+<br>

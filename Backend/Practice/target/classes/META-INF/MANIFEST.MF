@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Built-By: EepssaRout
+Build-Jdk: 21.0.2
+Class-Path: lib/mongodb-driver-sync-4.11.1.jar lib/bson-4.11.1.jar lib/m
+ ongodb-driver-core-4.11.1.jar lib/bson-record-codec-4.11.1.jar
+Main-Class: com.ibm.maven.Practice.App
+Created-By: Maven Integration for Eclipse
+

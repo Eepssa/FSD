@@ -1,0 +1,18 @@
+<!-- <app-next-component></app-next-component>
+<app-seccomponent></app-seccomponent> -->
+
+ <p>{{name|titlecase}}</p>     <!--uppercase -->
+ <!-- <p>{{dt|date:'short'}}</p> -->
+ <p>{{pi|number:'1.0-0'}}</p>
+ <p>{{percent|percent:''}}</p>
+ <p> {{cur|currency:'INR'}}</p>
+
+ 
+<p>{{2070|gram}}</p>
+
+ <h6>Timer</h6>
+ <label for="seconds">Enter the seconds:</label>
+<input type="text" id="seconds" [(ngModel)]="timeLeft">
+<button type="button" (click)="startTimer()">Start</button>
+
+<div id="stopwatch">{{curr|date: 'mediumTime'}}</div>

@@ -1,0 +1,28 @@
+---Unit Testing------------------------------------------
+https://blog.logrocket.com/angular-unit-testing-tutorial/
+https://angular.io/guide/testing-components-basics
+
+----------route guard--------------------------------------
+https://medium.com/@ryanchenkie_40935/angular-authentication-using-route-guards-bf7a4ca13ae3
+https://medium.com/@limitlesscoders/how-to-use-route-guards-to-protect-routes-in-angular-2703bce2e34c
+https://www.syncfusion.com/blogs/post/implementing-route-protection-in-angular-using-canactivate.aspx
+
+
+----------------angular depoy to tomcat------------------------------------------------------------------
+https://www.linkedin.com/pulse/how-deploy-angular-application-tomcat-g-manoj-kumar-reddy/
+
+------Angular as a platform-------------------------------------------------------------------------------
+https://angularindepth.com/posts/1027/angular-platforms-in-depth-part-1-what-are-angular-platforms
+
+----optimization-- angular apps-
+https://nintriva.com/blog/optimize-angular-app-performance/
+
+
+http://localhost:8111/swagger-ui/index.html#/auth-controller/authRequest
+
+---dynamic component---------------------------------------------
+https://blog.bitsrc.io/dynamic-components-in-angular-9ddc346e2742
+
+
+----------reactive forms----------------------------------------
+https://angular.io/guide/reactive-forms

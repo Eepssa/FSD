@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>State Selection</title>
+</head>
+<body>
+
+<h2>Select a State</h2>
+
+<select id="stateSelect" onchange="getStateCode()">
+  <option value="">Select a state</option>
+  <option value="01">Odisha</option>
+  <option value="02">West Bengal</option>
+  <option value="03">Bihar</option>
+</select>
+<p id="print"></p>
+<script>
+function getStateCode() {
+  let stateCode = document.getElementById("stateSelect").value;
+  //console.log("Gst:", stateCode);
+  document.getElementById("print").textContent="GST: "+stateCode;
+  
+}
+</script>
+
+</body>
+</html>

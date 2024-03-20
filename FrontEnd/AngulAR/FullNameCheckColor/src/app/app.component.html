@@ -1,0 +1,20 @@
+
+<label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" [(ngModel)]="fname" (change)="show()"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" [(ngModel)]="lname" name="lname" (change)="show()"><br><br>
+  <label for="fullname">Full name:</label>
+  <input type="text" id="fullname" name="fullname" value="{{full}}"><br><br> 
+
+  <!-- checkbox for color change -->
+  <input type="checkbox" id="red" name="color" value="RED" [(ngModel)]="isColor" (change)="color('red')">
+<label for="red">RED</label><br>
+<input type="checkbox" id="green" name="color" value="GREEN" [(ngModel)]="isColor" (change)="color('green')" >
+<label for="green">GREEN</label><br>
+<div [ngClass]="isColor ?'red':'green'">
+<p>Hello</p>
+</div>
+
+
+  
+   

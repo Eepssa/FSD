@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: EepssaRout
+Build-Jdk: 21.0.2
+Main-Class: org.Child1.App
+Created-By: Maven Integration for Eclipse
+

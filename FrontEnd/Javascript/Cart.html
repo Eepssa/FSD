@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cartsty.css">
+</head>
+<body>
+
+<div class="cart">
+    <div class="product" data-id="1">
+        Jacket Rs.10000 <br><button class="btn add" onclick="addToCart(1)">+</button> <span id="quantity_1">0</span> <button class="btn remove" onclick="removeFromCart(1)">-</button>
+    </div>
+    <div class="product" data-id="2">
+        Shoes Rs.500 <br><button class="btn add" onclick="addToCart(2)">+</button> <span id="quantity_2">0</span> <button class="btn remove" onclick="removeFromCart(2)">-</button>
+    </div>
+    <div class="product" data-id="3">
+        Pants Rs.250 <br><button class="btn add" onclick="addToCart(3)">+</button> <span id="quantity_3">0</span> <button class="btn remove" onclick="removeFromCart(3)">-</button>
+    </div>
+    <div>Total: Rs.<span id="total">0</span></div>
+</div>
+
+<script src="cartdesp.js"></script>
+</body>
+</html>
